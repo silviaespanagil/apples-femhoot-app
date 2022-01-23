@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginView: View {
   @State var name: String = ""
+  @State var moveToNextScreen: Bool = false
+
   
     var body: some View {
       VStack(alignment: .leading) {
@@ -42,7 +44,11 @@ struct LoginView: View {
           .accentColor(Color.lila)
         
 
-        Button(action: {}, label: {
+        Button(action: {
+          if(!name.isEmpty){
+            self.moveToNextScreen = true
+          }
+        }, label: {
           Text("Next")
           .bold()
           .font(Font.system(size: 18, design: .default))
@@ -62,6 +68,8 @@ struct LoginView: View {
       }
       .background(Color.noWhite)
       .preferredColorScheme(.light)
+      .navigate(to: FemhootView(name: name), when: $moveToNextScreen)
+
     
     }
 }
