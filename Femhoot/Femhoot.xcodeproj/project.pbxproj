@@ -21,6 +21,11 @@
 		FCDFE2A5279D7F50001E491F /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A4279D7F50001E491F /* UserDataView.swift */; };
 		FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A6279D7F7A001E491F /* FemhootView.swift */; };
 		FCDFE2A9279D8111001E491F /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A8279D8111001E491F /* NavigationExtension.swift */; };
+		A77A4825279D77E4006BD5A2 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4824279D77E4006BD5A2 /* FactsView.swift */; };
+		A77A4828279D79A4006BD5A2 /* FactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4827279D79A4006BD5A2 /* FactsViewModel.swift */; };
+		A77A482B279D7B7C006BD5A2 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A482A279D7B7C006BD5A2 /* Fact.swift */; };
+		A77A482F279D7F9F006BD5A2 /* facts.json in Resources */ = {isa = PBXBuildFile; fileRef = A77A482E279D7F9F006BD5A2 /* facts.json */; };
+		A77A4831279D7FB3006BD5A2 /* JsonBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		FCDFE2A4279D7F50001E491F /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
 		FCDFE2A6279D7F7A001E491F /* FemhootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemhootView.swift; sourceTree = "<group>"; };
 		FCDFE2A8279D8111001E491F /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		A77A4824279D77E4006BD5A2 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		A77A4827279D79A4006BD5A2 /* FactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewModel.swift; sourceTree = "<group>"; };
+		A77A482A279D7B7C006BD5A2 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		A77A482E279D7F9F006BD5A2 /* facts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facts.json; sourceTree = "<group>"; };
+		A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,8 @@
 			children = (
 				FCDFE29E279D76EB001E491F /* Lottie */,
 				FCDFE294279D6AD2001E491F /* ui */,
+				A77A4829279D7B61006BD5A2 /* Entity */,
+				A77A4823279D77D3006BD5A2 /* Facts */,
 				A77A481A279D671E006BD5A2 /* Extension */,
 				A77A4819279D667F006BD5A2 /* Asset */,
 				A77A4809279D5BC1006BD5A2 /* FemhootApp.swift */,
@@ -104,6 +116,7 @@
 			children = (
 				A77A481C279D673D006BD5A2 /* ColorExtension.swift */,
 				FCDFE2A8279D8111001E491F /* NavigationExtension.swift */,
+				A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -142,6 +155,24 @@
 				FCDFE2A4279D7F50001E491F /* UserDataView.swift */,
 			);
 			path = user;
+			sourceTree = "<group>";
+		};
+		A77A4823279D77D3006BD5A2 /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				A77A482E279D7F9F006BD5A2 /* facts.json */,
+				A77A4824279D77E4006BD5A2 /* FactsView.swift */,
+				A77A4827279D79A4006BD5A2 /* FactsViewModel.swift */,
+			);
+			path = Facts;
+			sourceTree = "<group>";
+		};
+		A77A4829279D7B61006BD5A2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A77A482A279D7B7C006BD5A2 /* Fact.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +243,7 @@
 				A77A4811279D5BC5006BD5A2 /* Preview Assets.xcassets in Resources */,
 				A77A480E279D5BC5006BD5A2 /* Assets.xcassets in Resources */,
 				FCDFE2A0279D76FB001E491F /* apple.json in Resources */,
+				A77A482F279D7F9F006BD5A2 /* facts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +258,15 @@
 				FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */,
 				FCDFE2A2279D7A2C001E491F /* UserView.swift in Sources */,
 				A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */,
+				A77A482B279D7B7C006BD5A2 /* Fact.swift in Sources */,
 				A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */,
 				FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */,
+				A77A4828279D79A4006BD5A2 /* FactsViewModel.swift in Sources */,
+				A77A4825279D77E4006BD5A2 /* FactsView.swift in Sources */,
 				A77A480A279D5BC1006BD5A2 /* FemhootApp.swift in Sources */,
 				FCDFE2A5279D7F50001E491F /* UserDataView.swift in Sources */,
 				FCDFE2A9279D8111001E491F /* NavigationExtension.swift in Sources */,
+				A77A4831279D7FB3006BD5A2 /* JsonBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
