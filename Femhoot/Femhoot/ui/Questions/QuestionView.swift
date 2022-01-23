@@ -8,27 +8,26 @@
 import SwiftUI
 
 struct QuestionView: View {
+  
+  @Binding var question: String
+  @Binding var answers: [Answer]
+  @Binding var disableAnswers: Bool
+  @Binding var isAnswerCorrect: Bool
+  
+  var body: some View {
     
-    @Binding var question: String
-    @Binding var answers: [Answer]
-    @Binding var disableAnswers: Bool
-    
-    var body: some View {
+    VStack(alignment: .leading) {
+      
+      Text(question)
+        .bold()
+        .font(Font.system(size: 21, design: .default))
+        .foregroundColor(Color.lila)      
+      
+      ForEach(answers, id: \.self) { answer in
         
-        VStack(alignment: .leading) {
-            
-            Text(question)
-                .bold()
-                .font(Font.system(size: 21, design: .default))
-                .foregroundColor(Color.lila)
-                .padding(.horizontal)
-            
-            
-            ForEach(answers, id: \.self) { answer in
-                
-                AnswerView(answerText: answer.name, isAnswerCorrect: answer.isTrue == true, isDisabled: $disableAnswers)
-            }
-        }.padding()
-            
-    }
+        AnswerView(answer: answer, isDisabled: $disableAnswers, isAnswerCorrect: $isAnswerCorrect)
+      }
+    }.padding()
+    
+  }
 }
