@@ -18,7 +18,8 @@ struct AnswerView: View {
     HStack {
       Text(answerText)
         .font(Font.system(size: 21, design: .default))
-        .padding()
+        .padding(.horizontal)
+        .padding(.vertical, 5)
       
       Spacer()
       
@@ -27,7 +28,8 @@ struct AnswerView: View {
         .resizable()
         .scaledToFit()
         .frame(width: 60.0, alignment: .trailing)
-        .padding()
+        .padding(.vertical, 5)
+        .padding(.horizontal)
       }
     }
     .frame(maxWidth: .infinity)

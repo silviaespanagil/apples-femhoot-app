@@ -147,6 +147,8 @@
 		A78BD88A279D930F00ED4CFA /* Questions */ = {
 			isa = PBXGroup;
 			children = (
+				FCDFE2AA279D8358001E491F /* QuestionView.swift */,
+				FCDFE2AD279DA66A001E491F /* AnswerView.swift */,
 				A78BD88B279D931700ED4CFA /* questions.json */,
 			);
 			path = Questions;
@@ -162,8 +164,6 @@
 				FCDFE295279D6AE4001E491F /* LoginView.swift */,
 				FCDFE2A1279D7A2C001E491F /* UserView.swift */,
 				FCDFE2A6279D7F7A001E491F /* FemhootView.swift */,
-				FCDFE2AA279D8358001E491F /* QuestionView.swift */,
-				FCDFE2AD279DA66A001E491F /* AnswerView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";

@@ -16,7 +16,7 @@ struct QuestionView: View {
     VStack(alignment: .leading) {
       Text(question)
         .bold()
-        .font(Font.system(size: 32, design: .default))
+        .font(Font.system(size: 21, design: .default))
         .foregroundColor(Color.lila)
         .padding(.horizontal)
       

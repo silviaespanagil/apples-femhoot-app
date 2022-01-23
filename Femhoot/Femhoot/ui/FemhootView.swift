@@ -16,7 +16,16 @@ struct FemhootView: View {
     var body: some View {
       VStack {
         UserView(name: $name, progress: "\(currentQuestion) / \(totalQuestions)", score: $score)
+        
+        Spacer()
+        
         FactsView(viewModel: FactsViewModel())
+        
+        Spacer()
+        
+        QuestionView()
+        
+        Spacer()
       }
     }
 }
