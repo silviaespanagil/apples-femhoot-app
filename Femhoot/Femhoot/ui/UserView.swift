@@ -11,7 +11,9 @@ struct UserView: View {
   @State var nameText: String = "Name: "
   @Binding var name: String
   @State var progressText: String = "Progress: "
-  @State var progress: String
+  @Binding var currentQuestion: Int
+  @Binding var totalQuestions: Int
+  @State var progress: String = ""
   @Binding var score: Int
   
   var body: some View {
@@ -46,6 +48,12 @@ struct UserView: View {
         .padding()
       }
     }
+    .onAppear(perform: {
+      progress = "\(currentQuestion) / \(totalQuestions)"
+    })
+    .onChange(of: currentQuestion, perform: { _ in
+      progress = "\(currentQuestion) / \(totalQuestions)"
+    })
   }
 }
 
