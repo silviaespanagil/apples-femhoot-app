@@ -17,6 +17,7 @@ struct UserDataView : View {
         .bold()
         .font(Font.system(size: 21, design: .default))
         .foregroundColor(Color.pink)
+        .fixedSize(horizontal: false, vertical: true)
       
       
       Text(dynamicData)

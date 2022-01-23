@@ -17,6 +17,10 @@ struct FactsView: View {
       
       Text(viewModel.randomFact)
         .font(.body)
+        .fixedSize(horizontal: false, vertical: true)
+      
+      Spacer()
+      
       Button(action: {
         viewModel.getFact()
       }){
