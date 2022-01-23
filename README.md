@@ -1,8 +1,6 @@
 # iOS App: Femhoot
 ## _Nuwe Femhack Group Challenge_
 
-¡Hola mundo!
-
 As a part of the International Nuwe Femhack we were asked to create a Femhoot. A Kahoot inspired app that allows the user to know some random facts about women in STEM but that also test their knowledge  🧠
 
 The app has two  views:
