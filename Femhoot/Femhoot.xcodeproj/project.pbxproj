@@ -13,6 +13,7 @@
 		A77A4811279D5BC5006BD5A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */; };
 		A77A4818279D6679006BD5A2 /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */; };
 		A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A481C279D673D006BD5A2 /* ColorExtension.swift */; };
+		FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE295279D6AE4001E491F /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAsset.xcassets; sourceTree = "<group>"; };
 		A77A481C279D673D006BD5A2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		FCDFE295279D6AE4001E491F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		A77A4808279D5BC1006BD5A2 /* Femhoot */ = {
 			isa = PBXGroup;
 			children = (
+				FCDFE294279D6AD2001E491F /* ui */,
 				A77A481A279D671E006BD5A2 /* Extension */,
 				A77A4819279D667F006BD5A2 /* Asset */,
 				A77A4809279D5BC1006BD5A2 /* FemhootApp.swift */,
@@ -87,6 +90,14 @@
 				A77A481C279D673D006BD5A2 /* ColorExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		FCDFE294279D6AD2001E491F /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFE295279D6AE4001E491F /* LoginView.swift */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			files = (
 				A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */,
 				A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */,
+				FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */,
 				A77A480A279D5BC1006BD5A2 /* FemhootApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
