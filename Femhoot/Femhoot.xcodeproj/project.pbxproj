@@ -19,6 +19,9 @@
 		A77A482F279D7F9F006BD5A2 /* facts.json in Resources */ = {isa = PBXBuildFile; fileRef = A77A482E279D7F9F006BD5A2 /* facts.json */; };
 		A77A4831279D7FB3006BD5A2 /* JsonBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */; };
 		A78BD88C279D931700ED4CFA /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = A78BD88B279D931700ED4CFA /* questions.json */; };
+		A78BD896279DAD5500ED4CFA /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BD895279DAD5500ED4CFA /* Answer.swift */; };
+		A78BD898279DAD5C00ED4CFA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BD897279DAD5C00ED4CFA /* Question.swift */; };
+		A78BD89A279DAD6E00ED4CFA /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BD899279DAD6E00ED4CFA /* QuestionsViewModel.swift */; };
 		FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE295279D6AE4001E491F /* LoginView.swift */; };
 		FCDFE299279D74D3001E491F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FCDFE298279D74D3001E491F /* Lottie */; };
 		FCDFE29D279D7524001E491F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE29C279D7524001E491F /* LottieView.swift */; };
@@ -45,6 +48,9 @@
 		A77A482E279D7F9F006BD5A2 /* facts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facts.json; sourceTree = "<group>"; };
 		A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonBundle.swift; sourceTree = "<group>"; };
 		A78BD88B279D931700ED4CFA /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		A78BD895279DAD5500ED4CFA /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		A78BD897279DAD5C00ED4CFA /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A78BD899279DAD6E00ED4CFA /* QuestionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
 		FCDFE295279D6AE4001E491F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FCDFE29C279D7524001E491F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		FCDFE29F279D76FB001E491F /* apple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apple.json; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 		A77A4829279D7B61006BD5A2 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				A78BD895279DAD5500ED4CFA /* Answer.swift */,
+				A78BD897279DAD5C00ED4CFA /* Question.swift */,
 				A77A482A279D7B7C006BD5A2 /* Fact.swift */,
 			);
 			path = Entity;
@@ -148,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				FCDFE2AA279D8358001E491F /* QuestionView.swift */,
+				A78BD899279DAD6E00ED4CFA /* QuestionsViewModel.swift */,
 				FCDFE2AD279DA66A001E491F /* AnswerView.swift */,
 				A78BD88B279D931700ED4CFA /* questions.json */,
 			);
@@ -275,10 +284,13 @@
 				FCDFE29D279D7524001E491F /* LottieView.swift in Sources */,
 				FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */,
 				FCDFE2A2279D7A2C001E491F /* UserView.swift in Sources */,
+				A78BD898279DAD5C00ED4CFA /* Question.swift in Sources */,
 				A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */,
 				A77A482B279D7B7C006BD5A2 /* Fact.swift in Sources */,
 				FCDFE2AE279DA66A001E491F /* AnswerView.swift in Sources */,
 				A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */,
+				A78BD89A279DAD6E00ED4CFA /* QuestionsViewModel.swift in Sources */,
+				A78BD896279DAD5500ED4CFA /* Answer.swift in Sources */,
 				FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */,
 				A77A4828279D79A4006BD5A2 /* FactsViewModel.swift in Sources */,
 				A77A4825279D77E4006BD5A2 /* FactsView.swift in Sources */,
