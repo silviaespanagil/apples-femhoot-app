@@ -30,6 +30,8 @@ The app has two  views:
 - Question counter to allow the user to check how many questions are left
 - Customized color palette
 - Dynamic render of buttons to prevent user to skip questions
+- Avoid multiple answers in the same question
+- Change the view when the user finishes the experience
 
 ## Built with 🔨
 - XCode
