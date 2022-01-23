@@ -43,6 +43,7 @@ struct FemhootView: View {
             Spacer()
             Button(action: {
               currentQuestion += 1
+              isAnswerCorrect = false
               if currentQuestion < totalQuestions {
                 viewModel.getQuestion(index: currentQuestion)
               }

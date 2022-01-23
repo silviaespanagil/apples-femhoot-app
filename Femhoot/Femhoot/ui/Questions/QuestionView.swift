@@ -21,7 +21,8 @@ struct QuestionView: View {
       Text(question)
         .bold()
         .font(Font.system(size: 21, design: .default))
-        .foregroundColor(Color.lila)      
+        .foregroundColor(Color.lila)
+        .fixedSize(horizontal: false, vertical: true)
       
       ForEach(answers, id: \.self) { answer in
         
