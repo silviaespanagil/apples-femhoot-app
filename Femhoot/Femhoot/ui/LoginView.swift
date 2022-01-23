@@ -68,8 +68,6 @@ struct LoginView: View {
       }
       .background(Color.noWhite)
       .preferredColorScheme(.light)
-      .navigate(to: FemhootView(name: name), when: $moveToNextScreen)
-
-    
+      .navigate(to: FemhootView(viewModel: QuestionsViewModel(), name: name), when: $moveToNextScreen)
     }
 }
