@@ -18,8 +18,12 @@ struct LoginView: View {
           .frame(alignment: .topLeading)
           .foregroundColor(.pink)
           .padding()
+          .frame(maxWidth: .infinity, alignment: .center)
         
-        Spacer()
+        LottieView(name: "apple", loopMode: .loop)
+                   .frame(width: 250, height: 250)
+                   .frame(maxWidth: .infinity, alignment: .center)
+                   .padding()
         
         Text("Name")
           .bold()
