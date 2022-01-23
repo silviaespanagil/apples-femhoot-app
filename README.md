@@ -8,8 +8,11 @@ As a part of the International Nuwe Femhack we were asked to create a Femhoot. A
 The app has two  views:
 - A log in view: Here the user can identify itself with a name
 - The Femhoot view: This view is divided in three areas:
+
 		📲 User area: Where they can see their name, questions already answered and remaining and their total score
+
 		👩🏽‍💻 Facts area: A space with random facts to learn more about women in tech 
+
 		🎮 Game area: In which the user will have to answer different questions in order to win 10 points for each hit
 		
 <img src="https://user-images.githubusercontent.com/81619759/150690631-45734eac-d6ef-4172-ab73-332cbe63f49b.png" alt="User login page" width="300"/>  <img src="https://user-images.githubusercontent.com/81619759/150692999-f3d22288-ae0c-492a-9aab-028ae263eb7d.png" alt="Game view" width="300"/>  <img src="https://user-images.githubusercontent.com/81619759/150692836-556d6811-3bc6-4384-82bf-b3630c5508b5.png" alt="Final view with results" width="300"/> 
