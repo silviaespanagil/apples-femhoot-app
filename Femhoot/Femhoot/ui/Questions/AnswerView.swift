@@ -21,14 +21,19 @@ struct AnswerView: View {
         .font(.body)
         .padding(.horizontal)
         .padding(.vertical, 5)
+        .fixedSize(horizontal: false, vertical: true)
       
       Spacer()
       
       if isClicked == true {
-        Image( answer.isTrue ? "congratulation" : "fail")
+        Image(systemName: answer.isTrue ? "checkmark" : "xmark")
           .resizable()
           .scaledToFit()
-          .frame(width: 60.0, alignment: .trailing)
+          .frame(width: 20, height: 20, alignment: .center)
+          .padding(8)
+          .foregroundColor(.white)
+          .background(Color.lila)
+          .clipShape(Circle())
           .padding()
       }
     }
