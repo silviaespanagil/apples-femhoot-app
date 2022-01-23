@@ -20,11 +20,9 @@ class QuestionsViewModel: ObservableObject {
     
     // MARK: Methods
     
-    func getQuestion() {
+  func getQuestion(index: Int) {
         
-        let randomIndexNumber = Int.random(in: 0..<questionsArray.count)
-        
-        question = "\(questionsArray[randomIndexNumber].question)"
-        answers = questionsArray[randomIndexNumber].answers
+        question = "\(questionsArray[index].question)"
+        answers = questionsArray[index].answers
     }
 }

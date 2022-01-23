@@ -9,6 +9,8 @@ import SwiftUI
 
 struct FemhootView: View {
   static let imageArrow = "arrow.right"
+  static let imageCongratulation = "congratulation"
+
   @StateObject var viewModel: QuestionsViewModel
   
   @State var name: String
@@ -30,28 +32,60 @@ struct FemhootView: View {
       
       Divider()
       
-      QuestionView(question: $viewModel.question, answers: $viewModel.answers, disableAnswers: $answerAreDisabled, isAnswerCorrect: $isAnswerCorrect)
-      
-      if answerAreDisabled {
+      if currentQuestion < totalQuestions {
         
-        HStack {
+        QuestionView(question: $viewModel.question, answers: $viewModel.answers, disableAnswers: $answerAreDisabled, isAnswerCorrect: $isAnswerCorrect)
+        
+        if answerAreDisabled {
           
-          Spacer()
-          Button(action: {
-            currentQuestion += 1
-            viewModel.getQuestion()
-          }){
+          HStack {
             
-            Image(systemName: FemhootView.imageArrow)
-              .frame(width: 20, height: 20)
-              .padding(5)
-              .font(.footnote)
-              .foregroundColor(Color.noWhite)
-              .background(Color.lila)
-              .clipShape(Circle())
+            Spacer()
+            Button(action: {
+              currentQuestion += 1
+              if currentQuestion < totalQuestions {
+                viewModel.getQuestion(index: currentQuestion)
+              }
+            }){
+              
+              Image(systemName: FemhootView.imageArrow)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 30, height: 30)
+                .padding(10)
+                .foregroundColor(.white)
+                .background(Color.lila)
+                .clipShape(Circle())
+                .padding()
+            }
           }
+          .padding(.top)
         }
-        .padding(.top)
+      }
+      
+      else {
+        Text("Congratulations!")
+          .font(.title)
+          .foregroundColor(Color.pink)
+          .padding()
+        Spacer()
+        
+        Image(FemhootView.imageCongratulation)
+          .resizable()
+          .scaledToFill()
+          .frame(width: 60, height: 60, alignment: .center)
+        
+        Text("Your Score: ")
+          .bold()
+          .font(.title)
+          .foregroundColor(Color.pink)
+          .padding()
+        
+        Text(String(score))
+          .bold()
+          .font(Font.system(size: 41, design: .default))
+          .foregroundColor(Color.lila)
+          .padding()
       }
       
       Spacer()
@@ -62,7 +96,7 @@ struct FemhootView: View {
       }
     })
     .onAppear {
-      viewModel.getQuestion()
+      viewModel.getQuestion(index: currentQuestion)
       totalQuestions = viewModel.questionsArray.count
     }
   }

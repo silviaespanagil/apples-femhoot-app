@@ -18,7 +18,7 @@ struct AnswerView: View {
     
     HStack {
       Text(answer.name)
-        .font(Font.system(size: 21, design: .default))
+        .font(.body)
         .padding(.horizontal)
         .padding(.vertical, 5)
       
@@ -45,5 +45,6 @@ struct AnswerView: View {
       isDisabled = false
     }
     .disabled(isDisabled)
+    .padding(.vertical)
   }
 }
