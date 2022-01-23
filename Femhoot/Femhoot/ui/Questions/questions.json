@@ -177,5 +177,14 @@
                 "isTrue": false},
             {"name":"Steve Shirley",
                 "isTrue": true}]
-    }
+    },
+      {
+        "question": "Who’s the current COO of Facebook?",
+        "answers":  [{"name": "Hedy Lamarr",
+                    "isTrue": false},
+                   {"name":"Sheryl Sandberg",
+                    "isTrue": true},
+                   {"name":"Mark Zuckerberg",
+                    "isTrue": false}]
+      }
 ]
