@@ -11,6 +11,8 @@
 		A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A480B279D5BC1006BD5A2 /* ContentView.swift */; };
 		A77A480E279D5BC5006BD5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A480D279D5BC5006BD5A2 /* Assets.xcassets */; };
 		A77A4811279D5BC5006BD5A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */; };
+		A77A4818279D6679006BD5A2 /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */; };
+		A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A481C279D673D006BD5A2 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A77A480B279D5BC1006BD5A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77A480D279D5BC5006BD5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAsset.xcassets; sourceTree = "<group>"; };
+		A77A481C279D673D006BD5A2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,10 @@
 		A77A4808279D5BC1006BD5A2 /* Femhoot */ = {
 			isa = PBXGroup;
 			children = (
+				A77A481A279D671E006BD5A2 /* Extension */,
+				A77A4819279D667F006BD5A2 /* Asset */,
 				A77A4809279D5BC1006BD5A2 /* FemhootApp.swift */,
 				A77A480B279D5BC1006BD5A2 /* ContentView.swift */,
-				A77A480D279D5BC5006BD5A2 /* Assets.xcassets */,
 				A77A480F279D5BC5006BD5A2 /* Preview Content */,
 			);
 			path = Femhoot;
@@ -65,6 +70,23 @@
 				A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A77A4819279D667F006BD5A2 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				A77A480D279D5BC5006BD5A2 /* Assets.xcassets */,
+				A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		A77A481A279D671E006BD5A2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A77A481C279D673D006BD5A2 /* ColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A4818279D6679006BD5A2 /* ColorAsset.xcassets in Resources */,
 				A77A4811279D5BC5006BD5A2 /* Preview Assets.xcassets in Resources */,
 				A77A480E279D5BC5006BD5A2 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */,
 				A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */,
 				A77A480A279D5BC1006BD5A2 /* FemhootApp.swift in Sources */,
 			);
