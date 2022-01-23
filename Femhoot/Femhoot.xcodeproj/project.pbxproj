@@ -11,6 +11,27 @@
 		A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A480B279D5BC1006BD5A2 /* ContentView.swift */; };
 		A77A480E279D5BC5006BD5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A480D279D5BC5006BD5A2 /* Assets.xcassets */; };
 		A77A4811279D5BC5006BD5A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */; };
+		A77A4818279D6679006BD5A2 /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */; };
+		A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A481C279D673D006BD5A2 /* ColorExtension.swift */; };
+		A77A4825279D77E4006BD5A2 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4824279D77E4006BD5A2 /* FactsView.swift */; };
+		A77A4828279D79A4006BD5A2 /* FactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4827279D79A4006BD5A2 /* FactsViewModel.swift */; };
+		A77A482B279D7B7C006BD5A2 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A482A279D7B7C006BD5A2 /* Fact.swift */; };
+		A77A482F279D7F9F006BD5A2 /* facts.json in Resources */ = {isa = PBXBuildFile; fileRef = A77A482E279D7F9F006BD5A2 /* facts.json */; };
+		A77A4831279D7FB3006BD5A2 /* JsonBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */; };
+		A78BD88C279D931700ED4CFA /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = A78BD88B279D931700ED4CFA /* questions.json */; };
+		A78BD896279DAD5500ED4CFA /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BD895279DAD5500ED4CFA /* Answer.swift */; };
+		A78BD898279DAD5C00ED4CFA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BD897279DAD5C00ED4CFA /* Question.swift */; };
+		A78BD89A279DAD6E00ED4CFA /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BD899279DAD6E00ED4CFA /* QuestionsViewModel.swift */; };
+		FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE295279D6AE4001E491F /* LoginView.swift */; };
+		FCDFE299279D74D3001E491F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FCDFE298279D74D3001E491F /* Lottie */; };
+		FCDFE29D279D7524001E491F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE29C279D7524001E491F /* LottieView.swift */; };
+		FCDFE2A0279D76FB001E491F /* apple.json in Resources */ = {isa = PBXBuildFile; fileRef = FCDFE29F279D76FB001E491F /* apple.json */; };
+		FCDFE2A2279D7A2C001E491F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A1279D7A2C001E491F /* UserView.swift */; };
+		FCDFE2A5279D7F50001E491F /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A4279D7F50001E491F /* UserDataView.swift */; };
+		FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A6279D7F7A001E491F /* FemhootView.swift */; };
+		FCDFE2A9279D8111001E491F /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A8279D8111001E491F /* NavigationExtension.swift */; };
+		FCDFE2AB279D8358001E491F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2AA279D8358001E491F /* QuestionView.swift */; };
+		FCDFE2AE279DA66A001E491F /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2AD279DA66A001E491F /* AnswerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,26 @@
 		A77A480B279D5BC1006BD5A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77A480D279D5BC5006BD5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAsset.xcassets; sourceTree = "<group>"; };
+		A77A481C279D673D006BD5A2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A77A4824279D77E4006BD5A2 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		A77A4827279D79A4006BD5A2 /* FactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewModel.swift; sourceTree = "<group>"; };
+		A77A482A279D7B7C006BD5A2 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		A77A482E279D7F9F006BD5A2 /* facts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facts.json; sourceTree = "<group>"; };
+		A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonBundle.swift; sourceTree = "<group>"; };
+		A78BD88B279D931700ED4CFA /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		A78BD895279DAD5500ED4CFA /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		A78BD897279DAD5C00ED4CFA /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A78BD899279DAD6E00ED4CFA /* QuestionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
+		FCDFE295279D6AE4001E491F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FCDFE29C279D7524001E491F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		FCDFE29F279D76FB001E491F /* apple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apple.json; sourceTree = "<group>"; };
+		FCDFE2A1279D7A2C001E491F /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		FCDFE2A4279D7F50001E491F /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
+		FCDFE2A6279D7F7A001E491F /* FemhootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemhootView.swift; sourceTree = "<group>"; };
+		FCDFE2A8279D8111001E491F /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		FCDFE2AA279D8358001E491F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		FCDFE2AD279DA66A001E491F /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDFE299279D74D3001E491F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +93,13 @@
 		A77A4808279D5BC1006BD5A2 /* Femhoot */ = {
 			isa = PBXGroup;
 			children = (
+				FCDFE29E279D76EB001E491F /* Lottie */,
+				FCDFE294279D6AD2001E491F /* ui */,
+				A77A4829279D7B61006BD5A2 /* Entity */,
+				A77A481A279D671E006BD5A2 /* Extension */,
+				A77A4819279D667F006BD5A2 /* Asset */,
 				A77A4809279D5BC1006BD5A2 /* FemhootApp.swift */,
 				A77A480B279D5BC1006BD5A2 /* ContentView.swift */,
-				A77A480D279D5BC5006BD5A2 /* Assets.xcassets */,
 				A77A480F279D5BC5006BD5A2 /* Preview Content */,
 			);
 			path = Femhoot;
@@ -65,6 +111,94 @@
 				A77A4810279D5BC5006BD5A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A77A4819279D667F006BD5A2 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				A77A480D279D5BC5006BD5A2 /* Assets.xcassets */,
+				A77A4817279D6678006BD5A2 /* ColorAsset.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		A77A481A279D671E006BD5A2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A77A481C279D673D006BD5A2 /* ColorExtension.swift */,
+				FCDFE2A8279D8111001E491F /* NavigationExtension.swift */,
+				A77A4830279D7FB3006BD5A2 /* JsonBundle.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A77A4823279D77D3006BD5A2 /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				A77A482E279D7F9F006BD5A2 /* facts.json */,
+				A77A4824279D77E4006BD5A2 /* FactsView.swift */,
+				A77A4827279D79A4006BD5A2 /* FactsViewModel.swift */,
+			);
+			path = Facts;
+			sourceTree = "<group>";
+		};
+		A77A4829279D7B61006BD5A2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A78BD895279DAD5500ED4CFA /* Answer.swift */,
+				A78BD897279DAD5C00ED4CFA /* Question.swift */,
+				A77A482A279D7B7C006BD5A2 /* Fact.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A78BD88A279D930F00ED4CFA /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFE2AA279D8358001E491F /* QuestionView.swift */,
+				A78BD899279DAD6E00ED4CFA /* QuestionsViewModel.swift */,
+				FCDFE2AD279DA66A001E491F /* AnswerView.swift */,
+				A78BD88B279D931700ED4CFA /* questions.json */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		FCDFE294279D6AD2001E491F /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				A78BD88A279D930F00ED4CFA /* Questions */,
+				A77A4823279D77D3006BD5A2 /* Facts */,
+				FCDFE2A3279D7F3C001E491F /* user */,
+				FCDFE29B279D7516001E491F /* animations */,
+				FCDFE295279D6AE4001E491F /* LoginView.swift */,
+				FCDFE2A1279D7A2C001E491F /* UserView.swift */,
+				FCDFE2A6279D7F7A001E491F /* FemhootView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		FCDFE29B279D7516001E491F /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFE29C279D7524001E491F /* LottieView.swift */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
+		FCDFE29E279D76EB001E491F /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFE29F279D76FB001E491F /* apple.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		FCDFE2A3279D7F3C001E491F /* user */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFE2A4279D7F50001E491F /* UserDataView.swift */,
+			);
+			path = user;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +217,9 @@
 			dependencies = (
 			);
 			name = Femhoot;
+			packageProductDependencies = (
+				FCDFE298279D74D3001E491F /* Lottie */,
+			);
 			productName = Femhoot;
 			productReference = A77A4806279D5BC1006BD5A2 /* Femhoot.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +248,9 @@
 				Base,
 			);
 			mainGroup = A77A47FD279D5BC1006BD5A2;
+			packageReferences = (
+				FCDFE297279D74D3001E491F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = A77A4807279D5BC1006BD5A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A4818279D6679006BD5A2 /* ColorAsset.xcassets in Resources */,
 				A77A4811279D5BC5006BD5A2 /* Preview Assets.xcassets in Resources */,
 				A77A480E279D5BC5006BD5A2 /* Assets.xcassets in Resources */,
+				A78BD88C279D931700ED4CFA /* questions.json in Resources */,
+				FCDFE2A0279D76FB001E491F /* apple.json in Resources */,
+				A77A482F279D7F9F006BD5A2 /* facts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +281,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDFE29D279D7524001E491F /* LottieView.swift in Sources */,
+				FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */,
+				FCDFE2A2279D7A2C001E491F /* UserView.swift in Sources */,
+				A78BD898279DAD5C00ED4CFA /* Question.swift in Sources */,
+				A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */,
+				A77A482B279D7B7C006BD5A2 /* Fact.swift in Sources */,
+				FCDFE2AE279DA66A001E491F /* AnswerView.swift in Sources */,
 				A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */,
+				A78BD89A279DAD6E00ED4CFA /* QuestionsViewModel.swift in Sources */,
+				A78BD896279DAD5500ED4CFA /* Answer.swift in Sources */,
+				FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */,
+				A77A4828279D79A4006BD5A2 /* FactsViewModel.swift in Sources */,
+				A77A4825279D77E4006BD5A2 /* FactsView.swift in Sources */,
+				FCDFE2AB279D8358001E491F /* QuestionView.swift in Sources */,
 				A77A480A279D5BC1006BD5A2 /* FemhootApp.swift in Sources */,
+				FCDFE2A5279D7F50001E491F /* UserDataView.swift in Sources */,
+				FCDFE2A9279D8111001E491F /* NavigationExtension.swift in Sources */,
+				A77A4831279D7FB3006BD5A2 /* JsonBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +503,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCDFE297279D74D3001E491F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCDFE298279D74D3001E491F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCDFE297279D74D3001E491F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A77A47FE279D5BC1006BD5A2 /* Project object */;
 }
