@@ -17,6 +17,10 @@
 		FCDFE299279D74D3001E491F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FCDFE298279D74D3001E491F /* Lottie */; };
 		FCDFE29D279D7524001E491F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE29C279D7524001E491F /* LottieView.swift */; };
 		FCDFE2A0279D76FB001E491F /* apple.json in Resources */ = {isa = PBXBuildFile; fileRef = FCDFE29F279D76FB001E491F /* apple.json */; };
+		FCDFE2A2279D7A2C001E491F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A1279D7A2C001E491F /* UserView.swift */; };
+		FCDFE2A5279D7F50001E491F /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A4279D7F50001E491F /* UserDataView.swift */; };
+		FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A6279D7F7A001E491F /* FemhootView.swift */; };
+		FCDFE2A9279D8111001E491F /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDFE2A8279D8111001E491F /* NavigationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		FCDFE295279D6AE4001E491F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FCDFE29C279D7524001E491F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		FCDFE29F279D76FB001E491F /* apple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apple.json; sourceTree = "<group>"; };
+		FCDFE2A1279D7A2C001E491F /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		FCDFE2A4279D7F50001E491F /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
+		FCDFE2A6279D7F7A001E491F /* FemhootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemhootView.swift; sourceTree = "<group>"; };
+		FCDFE2A8279D8111001E491F /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				A77A481C279D673D006BD5A2 /* ColorExtension.swift */,
+				FCDFE2A8279D8111001E491F /* NavigationExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -102,8 +111,11 @@
 		FCDFE294279D6AD2001E491F /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				FCDFE2A3279D7F3C001E491F /* user */,
 				FCDFE29B279D7516001E491F /* animations */,
 				FCDFE295279D6AE4001E491F /* LoginView.swift */,
+				FCDFE2A1279D7A2C001E491F /* UserView.swift */,
+				FCDFE2A6279D7F7A001E491F /* FemhootView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -122,6 +134,14 @@
 				FCDFE29F279D76FB001E491F /* apple.json */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		FCDFE2A3279D7F3C001E491F /* user */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFE2A4279D7F50001E491F /* UserDataView.swift */,
+			);
+			path = user;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +223,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDFE29D279D7524001E491F /* LottieView.swift in Sources */,
+				FCDFE2A7279D7F7A001E491F /* FemhootView.swift in Sources */,
+				FCDFE2A2279D7A2C001E491F /* UserView.swift in Sources */,
 				A77A481D279D673D006BD5A2 /* ColorExtension.swift in Sources */,
 				A77A480C279D5BC1006BD5A2 /* ContentView.swift in Sources */,
 				FCDFE296279D6AE4001E491F /* LoginView.swift in Sources */,
 				A77A480A279D5BC1006BD5A2 /* FemhootApp.swift in Sources */,
+				FCDFE2A5279D7F50001E491F /* UserDataView.swift in Sources */,
+				FCDFE2A9279D8111001E491F /* NavigationExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
